@@ -1,0 +1,8 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: store
+      username:
+      password:
+      contact-points: localhost
+      port: 9042
