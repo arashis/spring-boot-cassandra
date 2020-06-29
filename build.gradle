@@ -26,6 +26,10 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     // cassandra
     implementation 'org.springframework.boot:spring-boot-starter-data-cassandra'
+
+    //cache
+    implementation 'com.github.ben-manes.caffeine:caffeine:2.8.4'
+
 }
 
 test {
